@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+
+html, 
+body {
+	background-color: black;
+	height: 100%;
+	overflow: hidden;
+}
+
+#form-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+#text-input {
+	width: auto;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: clamp(0.5rem, 9vw, 5rem);
+	color: white;
+	border: none;
+	text-align: center;
+	background: none;
+	font-family: 'Ibarra Real Nova', serif;
+}
